@@ -16,6 +16,8 @@ class Servico(BaseModel):
     descricao: str
     cidade: str
     preco: float
+    telefone: str
+    avaliacao: float
 
 
 servicos = []
